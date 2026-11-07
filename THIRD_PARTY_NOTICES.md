@@ -4,6 +4,14 @@
 
 核查日期：2026-11-07。更完整的原始来源及替代候选调查见 [模型来源调查](docs/model-origin-review.md)。本文件不以 star 数判断原创性或准确性。
 
+## 本项目原创部分的许可范围
+
+本项目有权许可的原创贡献采用根目录 [LICENSE](LICENSE) 中的 GNU AGPL-3.0-only，另见 [NOTICE](NOTICE)。这是原创部分的授权，不是对整个仓库中所有第三方来源内容的权利保证，也不会为模型权重或上游未明确授权的部分重新发放许可。
+
+特别是 `backend/app/kittycheck.py` 为上游 `lib/services/ai_scoring_service.dart` 的 Python 适配，保留了区域几何、旋转、归一化及头位输入契约。受影响的上游改编部分没有从本项目获得新的 AGPL 授权；其原来源、作者与固定提交见下文。明确列出该边界不等于已解决上游使用或再分发许可。不能据根目录 LICENSE 声称完整程序全部属于权利已澄清的自由开源软件。
+
+本站免费、非商业是运营目标，不是对原创 AGPL 代码施加的额外限制。第三方库、数据、权重和改编部分仍须分别遵循其适用条款或澄清缺失许可。
+
 ## KittyCheck 自动 FGS
 
 - 项目：[rmcaoile/KittyCheck](https://github.com/rmcaoile/KittyCheck)。固定提交 `818d4f5943f707e9fd3ec4ec420461c54e882832`。

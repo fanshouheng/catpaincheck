@@ -3,7 +3,7 @@
 ## 范围与事实来源
 
 - 面向用户默认简体中文；蓝、黑、灰配色，关注状态柔红，不使用绿色或黄色；少辅助标签和重复说明。
-- 本项目免费、非商业。默认组合为 YOLO 疼痛表情二分类 + KittyCheck 自动 FGS + 独立人工 FGS；不是通用多模态模型服务。
+- 本站免费、以非商业研究运营；有权许可的原创代码采用 AGPL-3.0-only，不能对其额外增加非商业限制。第三方权重及 KittyCheck 上游改编部分的许可边界见 `NOTICE` 与 `THIRD_PARTY_NOTICES.md`，不能声称完整程序的所有权利均已澄清。默认组合为 YOLO 疼痛表情二分类 + KittyCheck 自动 FGS + 独立人工 FGS；不是通用多模态模型服务。
 - 当前契约以 `API-CONTRACT.md`、`backend/app/schemas.py`、`main.py`、`scoring.py` 为准。来源及许可以 `THIRD_PARTY_NOTICES.md`、下载脚本和模型 manifest 为准。不要把历史部署或测试结果当作本次生产状态。
 - 代码未推送就不能声称 GitHub 已公开；生产未验证就不能声称 Vercel 新版已正常上线。
 

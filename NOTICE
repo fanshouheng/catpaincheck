@@ -1,0 +1,22 @@
+CatPainCheck
+Copyright (C) 2026 CatPainCheck contributors
+
+Original contributions that the contributors are entitled to license are
+provided under GNU Affero General Public License version 3 only
+(AGPL-3.0-only). See LICENSE for the complete license text.
+
+This grant does not relicense third-party model weights, datasets, libraries,
+or upstream-derived portions for which permission has not been established.
+In particular, backend/app/kittycheck.py ports behavior from the KittyCheck
+Dart adapter, whose upstream repository has no explicit LICENSE. We do not
+claim the right to grant AGPL rights to those upstream-derived portions.
+
+KittyCheck source: https://github.com/rmcaoile/KittyCheck
+Pinned commit: 818d4f5943f707e9fd3ec4ec420461c54e882832
+Upstream adapter: lib/services/ai_scoring_service.dart
+README author: Ralph Philip M. Caoile
+Report authors: Ralph Philip M. Caoile and Rodolfo C. Camaclang
+
+See THIRD_PARTY_NOTICES.md for source links, attribution, existing terms,
+adaptations, and unresolved permissions. Public availability, attribution,
+and noncommercial operation do not grant missing upstream permissions.

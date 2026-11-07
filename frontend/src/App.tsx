@@ -383,7 +383,7 @@ function App() {
         </section>}
       </>}
     </main>
-    <footer className="site-footer"><span>{cloudMode ? '照片在本站处理' : '照片仅在本机处理'}</span></footer>
+    <footer className="site-footer"><span>{cloudMode ? '照片在本站处理' : '照片仅在本机处理'}</span><a href="https://github.com/fanshouheng/catpaincheck" target="_blank" rel="noreferrer">源代码</a></footer>
   </div>
 }
 
