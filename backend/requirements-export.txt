@@ -1,0 +1,13 @@
+# Local export only; installed after requirements.txt and requirements-model.txt.
+# Install ultralytics==8.3.221 separately with --no-deps to avoid a second cv2 wheel.
+onnx==1.18.0
+PyYAML==6.0.3
+requests==2.32.5
+scipy==1.16.3
+matplotlib==3.10.7
+pandas==2.3.3
+psutil==7.1.3
+py-cpuinfo==9.0.0
+polars==1.35.1
+seaborn==0.13.2
+ultralytics-thop==2.0.18

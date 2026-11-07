@@ -1,0 +1,1 @@
+"""CatPainCheck local assessment service."""
